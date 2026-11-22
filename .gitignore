@@ -1,0 +1,30 @@
+# Competition data (download from Kaggle; do not commit)
+data/
+*.zip
+train.csv
+test.csv
+gender_submission.csv
+
+# Secrets and local credentials
+.kaggle/
+kaggle.json
+access_token
+access_token.*
+.env
+.env.*
+*.pem
+id_rsa
+id_rsa.*
+
+# Python / Jupyter
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.python-version
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

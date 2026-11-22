@@ -1,0 +1,14 @@
+{
+  "id": "simonlivson/titanic-beginner-gradient-boosting-pipeline",
+  "title": "Titanic: Beginner Gradient Boosting Pipeline",
+  "code_file": "titanic_survival.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "false",
+  "enable_gpu": "false",
+  "enable_internet": "false",
+  "dataset_sources": [],
+  "competition_sources": ["titanic"],
+  "kernel_sources": [],
+  "model_sources": []
+}
