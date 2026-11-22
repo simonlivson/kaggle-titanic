@@ -6,14 +6,16 @@ This work was built with AI assistance. It was not written entirely by AI.
 
 ## Results
 
-These figures come from the executed notebook and from Kaggle's official submission response. They are not hand-typed estimates.
+These figures come from the local executed run of `titanic_survival.ipynb` with the exact package versions pinned in `requirements.txt` (Python 3.13.5, pandas 3.0.6, numpy 2.5.5, matplotlib 3.11.2, seaborn 0.13.2, scikit-learn 1.9.1, xgboost 3.4.1), and from Kaggle's official submission response. They are not hand-typed estimates.
 
 - Winning model: Gradient Boosting, selected in code by mean cross-validation accuracy
-- Mean 5-fold stratified CV accuracy: **0.8473** (std **0.0177**), printed by `titanic_survival.ipynb`
-- Mean 5-fold CV ROC-AUC: **0.8822** (std **0.0165**), printed by the same notebook
-- Public Kaggle leaderboard score: **0.77033**, returned by Kaggle for submission `58740009` on 22 November 2026 at 22:07 Israel time (UTC+2)
+- Mean 5-fold stratified CV accuracy: **0.8473** (std **0.0177**), printed by the local executed notebook
+- Mean 5-fold CV ROC-AUC: **0.8822** (std **0.0165**), printed by the same local run
+- Public Kaggle leaderboard score: **0.77033**, returned by Kaggle for submission `58740009` on 22 November 2026 at 22:07 Israel time (UTC+2). That score is from the submitted Gradient Boosting predictions.
 
-The CV score can be optimistic because the same folds were used to choose the model. Kaggle's public score is computed on a different set of passengers, so it can differ from local CV.
+The public [Kaggle notebook](https://www.kaggle.com/code/simonlivson/titanic-beginner-gradient-boosting-pipeline) runs on Kaggle's default environment, not the pinned local versions, so the model comparison can differ. That Kaggle run tied XGBoost and Gradient Boosting at **0.8440** CV accuracy and selected XGBoost.
+
+The local CV score can be optimistic because the same folds were used to choose the model. Kaggle's public score is computed on a different set of passengers, so it can differ from local CV.
 
 ## Approach
 

@@ -1,9 +1,13 @@
-# Versions used for the executed notebook and the Kaggle submission on 22 Nov 2026.
+# Exact versions from the local executed run of titanic_survival.ipynb
+# on 22 Nov 2026 (Python 3.13.5). The public Kaggle notebook uses
+# Kaggle's default environment, not these pins.
 pandas==3.0.6
 numpy==2.5.5
 matplotlib==3.11.2
 seaborn==0.13.2
 scikit-learn==1.9.1
 xgboost==3.4.1
+scipy==1.18.1
+joblib==1.6.0
 ipykernel==7.4.0
 nbconvert==7.17.2
