@@ -43,11 +43,11 @@ You can also open `titanic_survival.ipynb` in Jupyter and use **Cell → Run All
 
 ### Kaggle
 
-Add the Titanic competition data as input. The notebook looks for files in `/kaggle/input/titanic` first. Use **Run All**. A CPU session is enough; GPU and internet are not required.
-
-A public Kaggle notebook is not published yet. Kaggle blocked the public kernel push with: "Phone verification is required to make a notebook public." After the account is phone-verified at [Kaggle settings](https://www.kaggle.com/settings), the notebook can be published under this intended slug:
+The public notebook is here:
 
 https://www.kaggle.com/code/simonlivson/titanic-beginner-gradient-boosting-pipeline
+
+Add the Titanic competition data as input. The notebook looks for files in `/kaggle/input/titanic` first. Use **Run All**. A CPU session is enough; GPU and internet are not required.
 
 ### Colab
 
@@ -65,3 +65,4 @@ The competition CSVs are not stored in this repository.
 ## Links
 
 - Competition: https://www.kaggle.com/competitions/titanic
+- Kaggle notebook: https://www.kaggle.com/code/simonlivson/titanic-beginner-gradient-boosting-pipeline
